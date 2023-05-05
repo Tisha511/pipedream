@@ -1,0 +1,21 @@
+from selenium import webdriver
+
+# Set the browser driver
+driver = webdriver.Chrome()
+
+# Load the page
+driver.get("https://www.example.com")
+
+# Find the form fields and fill them in
+#name_field = driver.find_element_by_name("name")
+#name_field.send_keys("John Doe")
+
+#address_field = driver.find_element_by_name("address")
+#address_field.send_keys("123 Main St")
+
+# Submit the form
+#submit_button = driver.find_element_by_xpath("//input[@type='submit']")
+#submit_button.click()
+
+# Close the browser
+driver.quit()
